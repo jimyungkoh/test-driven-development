@@ -4,78 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86c9bb3f-efac-456f-ab70-e66a174b265a" name="Changes" comment="다중 통화를 지원하는 Money 객체-빨강 코드 작성">
-      <change beforePath="$PROJECT_DIR$/section1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/.idea/section1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/moneyExample/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/moneyExample/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/moneyExample/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/moneyExample/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/moneyExample/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/moneyExample/out/production/moneyExample/Dollar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/moneyExample/out/production/moneyExample/moneyExample.class" beforeDir="false" />
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/section1/moneyExample/src/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="23YKKwtqvDPPkOUvBlLAcacLHSi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="RunManager" selected="JUnit.moneyExample">
+    <configuration name="moneyExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-driven-development" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="moneyExample" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moneyExample.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-driven-development" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="moneyExample" />
+      <option name="METHOD_NAME" value="testMultiplication" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.moneyExample" />
+        <item itemvalue="JUnit.moneyExample.testMultiplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="86c9bb3f-efac-456f-ab70-e66a174b265a" name="Changes" comment="" />
-      <created>1641905520019</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1641905520019</updated>
-      <workItem from="1641905521415" duration="1815000" />
-    </task>
-    <task id="LOCAL-00001" summary="다중 통화를 지원하는 Money 객체-빨강 코드 작성">
-      <created>1641905722543</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1641905722543</updated>
-    </task>
-    <task id="LOCAL-00002" summary="다중 통화를 지원하는 Money 객체-빨강 코드 작성">
-      <created>1641906888787</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1641906888787</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -87,9 +67,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="다중 통화를 지원하는 Money 객체-빨강 코드 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="다중 통화를 지원하는 Money 객체-빨강 코드 작성" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
