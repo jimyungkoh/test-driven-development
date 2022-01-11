@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/section1/moneyExample/src/Dollar.java" afterDir="false" />
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="&quot;초록-어떻게든 작동하는 코드 만들기&quot; 추기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/moneyExample/src/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/moneyExample/src/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/moneyExample/src/moneyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/moneyExample/src/moneyExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JUnit.moneyExample">
+  <component name="RunManager" selected="JUnit.moneyExample.testMultiplication">
     <configuration name="moneyExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-driven-development" />
       <option name="PACKAGE_NAME" value="" />
@@ -49,12 +50,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.moneyExample" />
         <item itemvalue="JUnit.moneyExample.testMultiplication" />
+        <item itemvalue="JUnit.moneyExample" />
       </list>
     </recent_temporary>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="&quot;초록-어떻게든 작동하는 코드 만들기&quot; 추기">
+      <created>1641910892828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641910892828</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -68,5 +77,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;초록-어떻게든 작동하는 코드 만들기&quot; 추기" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;초록-어떻게든 작동하는 코드 만들기&quot; 추기" />
   </component>
 </project>
