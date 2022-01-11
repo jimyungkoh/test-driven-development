@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86c9bb3f-efac-456f-ab70-e66a174b265a" name="Changes" comment="다중 통화를 지원하는 Money 객체-빨강 코드 작성">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/.idea/section1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/moneyExample/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/moneyExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/moneyExample/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/moneyExample/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/moneyExample/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/moneyExample/out/production/moneyExample/Dollar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/moneyExample/out/production/moneyExample/moneyExample.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641905520019</updated>
-      <workItem from="1641905521415" duration="1269000" />
+      <workItem from="1641905521415" duration="1815000" />
     </task>
     <task id="LOCAL-00001" summary="다중 통화를 지원하는 Money 객체-빨강 코드 작성">
       <created>1641905722543</created>
@@ -57,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641905722543</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="다중 통화를 지원하는 Money 객체-빨강 코드 작성">
+      <created>1641906888787</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641906888787</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
