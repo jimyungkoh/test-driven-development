@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="'section1/moneyExample/README.md' 파일 추가">
-      <change afterPath="$PROJECT_DIR$/section1/degenerateObjects/degenerateObjects.iml" afterDir="false" />
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="프로젝트 구조 개편 및 타락한 객체 챕터 추가">
+      <change afterPath="$PROJECT_DIR$/section1/degenerateObjects/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/degenerateObjects/src/Dollar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/degenerateObjects/src/moneyExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/moneyExample/moneyExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/section1/moneyExample/moneyExample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/degenerateObjects/degenerateObjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/section1/degenerateObjects/degenerateObjects.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,26 +42,48 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/section1/degenerateObjects/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.11764705" />
     <property name="project.structure.side.proportion" value="0.13351136" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/section1/degenerateObjects/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/section1/moneyExample/src" />
       <recent name="$PROJECT_DIR$/section1/moneyExample" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.moneyExample.testMultiplication">
+  <component name="RunManager" selected="JUnit.moneyExample (1)">
+    <configuration name="moneyExample (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="degenerateObjects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="moneyExample" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="moneyExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-driven-development" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="moneyExample" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moneyExample.testMultiplication (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="degenerateObjects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="moneyExample" />
+      <option name="METHOD_NAME" value="testMultiplication" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,8 +98,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="moneyExample.testMultiplication" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="degenerateObjects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="moneyExample" />
+      <option name="METHOD_NAME" value="testMultiplication" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.moneyExample (1)" />
+        <item itemvalue="JUnit.moneyExample.testMultiplication (1)" />
+        <item itemvalue="TestNG.moneyExample.testMultiplication" />
         <item itemvalue="JUnit.moneyExample.testMultiplication" />
         <item itemvalue="JUnit.moneyExample" />
       </list>
@@ -104,7 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641914838462</updated>
       <workItem from="1641914842440" duration="2507000" />
-      <workItem from="1641970806470" duration="591000" />
+      <workItem from="1641970806470" duration="3732000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -120,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641970559484</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="프로젝트 구조 개편 및 타락한 객체 챕터 추가">
+      <created>1641971464209</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641971464209</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +189,7 @@
     <MESSAGE value="&quot;다중 통화를 지원하는 Money 객체-리팩터링&quot; 코드 추가" />
     <MESSAGE value="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정" />
     <MESSAGE value="'section1/moneyExample/README.md' 파일 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="'section1/moneyExample/README.md' 파일 추가" />
+    <MESSAGE value="프로젝트 구조 개편 및 타락한 객체 챕터 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로젝트 구조 개편 및 타락한 객체 챕터 추가" />
   </component>
 </project>

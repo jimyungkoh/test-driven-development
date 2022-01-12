@@ -20,4 +20,5 @@
 
 본 리포지토리는 책의 내용 순서에 맞추어 세 가지 세션으로 구성되었으며 책의 내용을 따라가며 ‘테스트 주도 개발’을 익히는 것이 목적입니다.
 
-[section1_다중 통화를 지원하는 money 객체](section1/moneyExample/README.md)
+[section1-다중 통화를 지원하는 money 객체](section1/moneyExample/README.md)
+[section1-타락한 객체](section1/degenerateObjects/README.md)
