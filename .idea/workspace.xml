@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="&quot;다중 통화를 지원하는 Money 객체-리팩터링&quot; 코드 추가">
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
+      <change afterPath="$PROJECT_DIR$/section1/moneyExample/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -32,6 +33,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="JUnit.moneyExample.testMultiplication">
@@ -83,9 +86,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641914838462</updated>
-      <workItem from="1641914842440" duration="297000" />
+      <workItem from="1641914842440" duration="2261000" />
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
+      <created>1641915234451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641915234451</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;초록-어떻게든 작동하는 코드 만들기&quot; 추기" />
     <MESSAGE value="&quot;다중 통화를 지원하는 Money 객체-리팩터링&quot; 코드 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;다중 통화를 지원하는 Money 객체-리팩터링&quot; 코드 추가" />
+    <MESSAGE value="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정" />
   </component>
 </project>
