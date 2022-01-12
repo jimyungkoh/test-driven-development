@@ -4,7 +4,7 @@
 
 5달러 주식 2주를 매수했을 때 계산된 금액 10달러인 상태에서 3주를 15달러로 예상하고 추가로 매수하려고 주문창을 켰더니 갑자기 30달러가 계산된 금액으로 표시되는 것이 그 문제점입니다. 코드를 보시죵
 
-```markdown
+```
 // test-driven-development/section1/degenerateObjects/src/moneyExample.java
 
 import org.junit.Test;
@@ -31,7 +31,7 @@ five.amount 값은 그대로 5인 상태에서 multiplier 값에 변화를 줄 �
 
 이를 위해 Dollar 클래스 코드를 다음과 같이 바꿔봅시다.
 
-```markdown
+```
 //section1/degenerateObjects/src/Dollar.java
 
 public class Dollar {
@@ -52,7 +52,7 @@ public class Dollar {
 
 이제 테스트를 조건에 맞게 수정해 다시 돌려봅시다.
 
-```markdown
+```
 // test-driven-development/section1/degenerateObjects/src/moneyExample.java
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

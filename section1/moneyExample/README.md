@@ -9,7 +9,7 @@
 
 - 실패할 수밖에 없는 테스트 만들기 [완성된 인터페이스 속 오퍼레이션을 상상을 상상하며]
 
-```markdown
+```
 // test-driven-development/section1/moneyExample/src/moneyExample.java
 import org.junit.Test;
 
@@ -46,7 +46,7 @@ public class moneyExample {
 
 - ‘어떻게든’ 통과하는 테스트 만들고 테스트가 성공하는지 본다.
 
-```markdown
+```
 // test-driven-development/section1/moneyExample/src/Dollar.java
     
 //Dollar 클래스 만들고
@@ -73,7 +73,7 @@ public class Dollar {
 
 - 중복 제거하기
 
-```markdown
+```
 public class Dollar {
 
     //Before

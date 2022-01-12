@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="프로젝트 구조 개편 및 타락한 객체 챕터 추가">
-      <change afterPath="$PROJECT_DIR$/section1/degenerateObjects/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section1/degenerateObjects/src/Dollar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section1/degenerateObjects/src/moneyExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="타락한 객체 챕터 코드 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/degenerateObjects/degenerateObjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/section1/degenerateObjects/degenerateObjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/degenerateObjects/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/section1/degenerateObjects/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/moneyExample/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/section1/moneyExample/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641914838462</updated>
       <workItem from="1641914842440" duration="2507000" />
-      <workItem from="1641970806470" duration="3732000" />
+      <workItem from="1641970806470" duration="3984000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -166,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641971464209</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="타락한 객체 챕터 코드 추가">
+      <created>1641975290473</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1641975290473</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +194,7 @@
     <MESSAGE value="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정" />
     <MESSAGE value="'section1/moneyExample/README.md' 파일 추가" />
     <MESSAGE value="프로젝트 구조 개편 및 타락한 객체 챕터 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로젝트 구조 개편 및 타락한 객체 챕터 추가" />
+    <MESSAGE value="타락한 객체 챕터 코드 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="타락한 객체 챕터 코드 추가" />
   </component>
 </project>
