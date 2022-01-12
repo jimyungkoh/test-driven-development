@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/test-driven-development.iml" filepath="$PROJECT_DIR$/test-driven-development.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section1/degenerateObjects/degenerateObjects.iml" filepath="$PROJECT_DIR$/section1/degenerateObjects/degenerateObjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section1/moneyExample/moneyExample.iml" filepath="$PROJECT_DIR$/section1/moneyExample/moneyExample.iml" />
     </modules>
   </component>
 </project>
