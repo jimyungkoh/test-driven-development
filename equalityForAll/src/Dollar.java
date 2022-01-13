@@ -13,4 +13,5 @@ public class Dollar {
         // amount 값을 amount*multiplier로 설정한 새로운 Dollar 객체 생성
         return new Dollar(amount*multiplier);
     }
+
 }
