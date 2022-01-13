@@ -16,7 +16,10 @@ public class Dollar {
 
     //동일성 일반화
     public boolean equals(Object object){
-            Dollar dollar = (Dollar) object;
-            return amount == dollar.amount;
+        Dollar dollar = (Dollar) object;
+
+        //new Dollar(5)의 amount가 equals()
+        //  메서드의 인자인 new Dollar(6)의 amount와 같은지 확인한다.
+        return amount == dollar.amount;
     }
 }

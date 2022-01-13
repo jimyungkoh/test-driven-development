@@ -24,6 +24,7 @@
     //값 객체의 동일성을 확인하는 'testEquality()' 메서드
     @Test
     public void testEquality(){
+        //같은 값을 가진 달러 객체가 정말 같은지 확인하는 테스트 케이스
         assertTrue(new Dollar(5).equals(new Dollar(5)));
 
         //다른 값을 가진 달러 객체가 정말 다른지 확인하는 테스트 케이스
