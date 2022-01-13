@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[추가] 값 객체의 동일성을 확인하는 'testEquality()' 메서드&#10;주석&#10;&#10;[추가] 값 객체 동일성을 확인하는 equals 메서드 설명 주석">
-      <change afterPath="$PROJECT_DIR$/equalityForAll/README.md" afterDir="false" />
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[추가] 모두를 위한 평등 README.md">
+      <change afterPath="$PROJECT_DIR$/section1/equalityForAll/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/equalityForAll/equalityForAll.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/equalityForAll/src/Dollar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/equalityForAll/src/moneyExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/equalityForAll/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/equalityForAll/equalityForAll.iml" beforeDir="false" afterPath="$PROJECT_DIR$/equalityForAll/equalityForAll.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/equalityForAll/src/Dollar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/equalityForAll/src/moneyExample.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +148,7 @@
       <updated>1641914838462</updated>
       <workItem from="1641914842440" duration="2507000" />
       <workItem from="1641970806470" duration="4733000" />
-      <workItem from="1642055652440" duration="6763000" />
+      <workItem from="1642055652440" duration="7055000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -226,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642069383007</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[추가] 모두를 위한 평등 README.md">
+      <created>1642091399273</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1642091399273</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +274,7 @@
     <MESSAGE value="[추가] 다른 값을 가진 달러 객체가 정말 다른지 확인하는 테스트 케이스" />
     <MESSAGE value="[수정] 값 객체 동일성을 확인하는 equals 메서드의 동일성 일반화(죄악 -&gt; 회개)" />
     <MESSAGE value="[추가] 값 객체의 동일성을 확인하는 'testEquality()' 메서드&#10;주석&#10;&#10;[추가] 값 객체 동일성을 확인하는 equals 메서드 설명 주석" />
-    <option name="LAST_COMMIT_MESSAGE" value="[추가] 값 객체의 동일성을 확인하는 'testEquality()' 메서드&#10;주석&#10;&#10;[추가] 값 객체 동일성을 확인하는 equals 메서드 설명 주석" />
+    <MESSAGE value="[추가] 모두를 위한 평등 README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[추가] 모두를 위한 평등 README.md" />
   </component>
 </project>
