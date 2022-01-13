@@ -14,8 +14,9 @@ public class Dollar {
         return new Dollar(amount*multiplier);
     }
 
-    //[추가] 테스트 통과를 위해 죄악을 저지른 equals(Obj) 메서드
+    //동일성 일반화
     public boolean equals(Object object){
-        return true;
+            Dollar dollar = (Dollar) object;
+            return amount == dollar.amount;
     }
 }
