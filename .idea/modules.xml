@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/section1/degenerateObjects/degenerateObjects.iml" filepath="$PROJECT_DIR$/section1/degenerateObjects/degenerateObjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/equalityForAll/equalityForAll.iml" filepath="$PROJECT_DIR$/equalityForAll/equalityForAll.iml" />
       <module fileurl="file://$PROJECT_DIR$/section1/moneyExample/moneyExample.iml" filepath="$PROJECT_DIR$/section1/moneyExample/moneyExample.iml" />
     </modules>
   </component>

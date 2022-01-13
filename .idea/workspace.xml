@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="타락한 객체 챕터 코드 추가">
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="최상위 리드미 목차 수정, 타락한 객체 화폐 예제 챕터 리드미 코드 설명부분 view 수정(markdown-&gt;none)">
+      <change afterPath="$PROJECT_DIR$/equalityForAll/equalityForAll.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equalityForAll/src/Dollar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/equalityForAll/src/moneyExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/degenerateObjects/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/section1/degenerateObjects/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/moneyExample/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/section1/moneyExample/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +40,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/section1/degenerateObjects/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/equalityForAll/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.11764705" />
     <property name="project.structure.side.proportion" value="0.13351136" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/equalityForAll/src" />
       <recent name="$PROJECT_DIR$/section1/degenerateObjects/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -140,7 +142,8 @@
       <option name="presentableId" value="Default" />
       <updated>1641914838462</updated>
       <workItem from="1641914842440" duration="2507000" />
-      <workItem from="1641970806470" duration="3984000" />
+      <workItem from="1641970806470" duration="4733000" />
+      <workItem from="1642055652440" duration="1881000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -170,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641975290473</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="최상위 리드미 목차 수정, 타락한 객체 화폐 예제 챕터 리드미 코드 설명부분 view 수정(markdown-&gt;none)">
+      <created>1641975585498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641975585498</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +205,7 @@
     <MESSAGE value="'section1/moneyExample/README.md' 파일 추가" />
     <MESSAGE value="프로젝트 구조 개편 및 타락한 객체 챕터 추가" />
     <MESSAGE value="타락한 객체 챕터 코드 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="타락한 객체 챕터 코드 추가" />
+    <MESSAGE value="최상위 리드미 목차 수정, 타락한 객체 화폐 예제 챕터 리드미 코드 설명부분 view 수정(markdown-&gt;none)" />
+    <option name="LAST_COMMIT_MESSAGE" value="최상위 리드미 목차 수정, 타락한 객체 화폐 예제 챕터 리드미 코드 설명부분 view 수정(markdown-&gt;none)" />
   </component>
 </project>
