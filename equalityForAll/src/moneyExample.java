@@ -1,10 +1,10 @@
-// test-driven-development/section1/equalityForAll/src/Dollar.java
+    // test-driven-development/section1/equalityForAll/src/Dollar.java
 
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+    import org.junit.Test;
+    import static org.junit.Assert.assertEquals;
+    import static org.junit.Assert.assertTrue;
 
-public class moneyExample {
+    public class moneyExample {
     @Test
     public void testMultiplication() {
         Dollar five = new Dollar(5);

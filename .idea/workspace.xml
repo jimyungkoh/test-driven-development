@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[추가] equalityForAll 챕터  화폐 에제 기존 코드">
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[추가] 실패하는 'testEquality()' 메서드">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/equalityForAll/src/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/equalityForAll/src/Dollar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/equalityForAll/src/moneyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/equalityForAll/src/moneyExample.java" afterDir="false" />
@@ -56,9 +56,18 @@
       <recent name="$PROJECT_DIR$/section1/moneyExample" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.moneyExample.testEquality">
+  <component name="RunManager" selected="JUnit.moneyExample">
     <configuration name="moneyExample (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="degenerateObjects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="moneyExample" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moneyExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="equalityForAll" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="moneyExample" />
       <option name="TEST_OBJECT" value="class" />
@@ -86,16 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="moneyExample.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-driven-development" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="moneyExample" />
-      <option name="METHOD_NAME" value="testMultiplication" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="moneyExample.testMultiplication" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="degenerateObjects" />
       <option name="PACKAGE_NAME" value="" />
@@ -110,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.moneyExample" />
         <item itemvalue="JUnit.moneyExample.testEquality" />
         <item itemvalue="JUnit.moneyExample (1)" />
         <item itemvalue="JUnit.moneyExample.testMultiplication (1)" />
         <item itemvalue="TestNG.moneyExample.testMultiplication" />
-        <item itemvalue="JUnit.moneyExample.testMultiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +141,7 @@
       <updated>1641914838462</updated>
       <workItem from="1641914842440" duration="2507000" />
       <workItem from="1641970806470" duration="4733000" />
-      <workItem from="1642055652440" duration="2850000" />
+      <workItem from="1642055652440" duration="3221000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -193,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642066420817</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[추가] 실패하는 'testEquality()' 메서드">
+      <created>1642067073184</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642067073184</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +227,7 @@
     <MESSAGE value="최상위 리드미 목차 수정, 타락한 객체 화폐 예제 챕터 리드미 코드 설명부분 view 수정(markdown-&gt;none)" />
     <MESSAGE value="[추가] equalityForAll 챕터 디렉토리와 내부 파일" />
     <MESSAGE value="[추가] equalityForAll 챕터  화폐 에제 기존 코드" />
-    <option name="LAST_COMMIT_MESSAGE" value="[추가] equalityForAll 챕터  화폐 에제 기존 코드" />
+    <MESSAGE value="[추가] 실패하는 'testEquality()' 메서드" />
+    <option name="LAST_COMMIT_MESSAGE" value="[추가] 실패하는 'testEquality()' 메서드" />
   </component>
 </project>
