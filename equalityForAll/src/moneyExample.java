@@ -1,8 +1,8 @@
     // test-driven-development/section1/equalityForAll/src/Dollar.java
 
     import org.junit.Test;
-    import static org.junit.Assert.assertEquals;
-    import static org.junit.Assert.assertTrue;
+
+    import static org.junit.Assert.*;
 
     public class moneyExample {
     @Test
@@ -21,9 +21,12 @@
         assertEquals(5, five.amount);
     }
 
-    //실패하는 'testEquality()' 메서드 추가
+    //값 객체의 동일성을 확인하는 'testEquality()' 메서드
     @Test
     public void testEquality(){
         assertTrue(new Dollar(5).equals(new Dollar(5)));
+
+        //다른 값을 가진 달러 객체가 정말 다른지 확인하는 테스트 케이스
+        assertFalse(new Dollar(5).equals(new Dollar(6)));
     }
 }
