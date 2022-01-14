@@ -1,5 +1,5 @@
-//section1/privacy/src/Dollar.java
-public class Dollar {
+//section1/franclySpeaking/src/Dollar.java
+class Dollar {
 
     private int amount;
 
