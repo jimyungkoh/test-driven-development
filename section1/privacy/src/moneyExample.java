@@ -1,4 +1,4 @@
-// test-driven-development/section1/equalityForAll/src/moneyExample.java
+// section1/privacy/src/moneyExample.java
 
 import org.junit.Test;
 
