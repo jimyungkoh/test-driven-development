@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[추가] 화폐 에제 - 솔직히 말하자면 디렉터리, 코드">
-      <change afterPath="$PROJECT_DIR$/section1/franclySpeaking/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section1/privacy/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[추가] 프라이버시, 솔직히 말하자면 README.md">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +144,7 @@
       <workItem from="1641914842440" duration="2507000" />
       <workItem from="1641970806470" duration="4733000" />
       <workItem from="1642055652440" duration="7499000" />
-      <workItem from="1642160147780" duration="5869000" />
+      <workItem from="1642160147780" duration="5955000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -295,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642167465338</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="[추가] 프라이버시, 솔직히 말하자면 README.md">
+      <created>1642167958559</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1642167958559</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +342,7 @@
     <MESSAGE value="[수정] 정수 간 비교 테스트 -&gt; 객체 간 비교 테스트" />
     <MESSAGE value="[수정] 외부에서 사용할 일 없는 amount 변수 private 변수로 변경" />
     <MESSAGE value="[추가] 화폐 에제 - 솔직히 말하자면 디렉터리, 코드" />
-    <option name="LAST_COMMIT_MESSAGE" value="[추가] 화폐 에제 - 솔직히 말하자면 디렉터리, 코드" />
+    <MESSAGE value="[추가] 프라이버시, 솔직히 말하자면 README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="[추가] 프라이버시, 솔직히 말하자면 README.md" />
   </component>
 </project>

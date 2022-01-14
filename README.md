@@ -24,3 +24,5 @@
 - [section1-다중 통화를 지원하는 money 객체](section1/moneyExample/README.md)
 - [section1-타락한 객체](section1/degenerateObjects/README.md)
 - [section1-모두를 위한 평등](section1/equalityForAll/README.md)
+- [section1-프라이버시](section1/privacy/README.md)
+- [section1-솔직히 말하자면](section1/franclySpeaking/README.md)
