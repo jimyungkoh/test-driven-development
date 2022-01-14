@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/section1/degenerateObjects/degenerateObjects.iml" filepath="$PROJECT_DIR$/section1/degenerateObjects/degenerateObjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/equalityForAll/equalityForAll.iml" filepath="$PROJECT_DIR$/equalityForAll/equalityForAll.iml" />
       <module fileurl="file://$PROJECT_DIR$/section1/moneyExample/moneyExample.iml" filepath="$PROJECT_DIR$/section1/moneyExample/moneyExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/section1/privacy/privacy.iml" filepath="$PROJECT_DIR$/section1/privacy/privacy.iml" />
     </modules>
   </component>
 </project>
