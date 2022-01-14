@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[추가] 섹션1-챕터4(프라이버시) 시작 파일 추가 [수정] 모두를 위한 평등 moneyExample 주석 수정">
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[삭제] 섹션-챕터 순서에 부합하지 않는 'equality for all' 디렉터리 삭제">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/degenerateObjects/src/moneyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/degenerateObjects/src/MoneyExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/equalityForAll/src/moneyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/equalityForAll/src/MoneyExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/moneyExample/src/moneyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/moneyExample/src/MoneyExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/privacy/src/moneyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/privacy/src/MoneyExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/privacy/src/MoneyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/privacy/src/MoneyExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +141,7 @@
       <workItem from="1641914842440" duration="2507000" />
       <workItem from="1641970806470" duration="4733000" />
       <workItem from="1642055652440" duration="7499000" />
-      <workItem from="1642160147780" duration="1135000" />
+      <workItem from="1642160147780" duration="2024000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -258,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642160744128</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="[수정] 전체 'moneyExample' 파일 관례에 맞게 파일명 수정(moneyExample -&gt; MoneyExample)">
+      <created>1642161344569</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1642161344569</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[삭제] 섹션-챕터 순서에 부합하지 않는 'equality for all' 디렉터리 삭제">
+      <created>1642161467006</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1642161467006</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +306,8 @@
     <MESSAGE value="[수정] 모두를 위한 평등 디렉터리 재배치 [추가] 목차에 모두를 위한 평등 챕터 추가" />
     <MESSAGE value="[추가] 섹션1-챕터4(프라이버시) 디렉토리" />
     <MESSAGE value="[추가] 섹션1-챕터4(프라이버시) 시작 파일 추가 [수정] 모두를 위한 평등 moneyExample 주석 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="[추가] 섹션1-챕터4(프라이버시) 시작 파일 추가 [수정] 모두를 위한 평등 moneyExample 주석 수정" />
+    <MESSAGE value="[수정] 전체 'moneyExample' 파일 관례에 맞게 파일명 수정(moneyExample -&gt; MoneyExample)" />
+    <MESSAGE value="[삭제] 섹션-챕터 순서에 부합하지 않는 'equality for all' 디렉터리 삭제" />
+    <option name="LAST_COMMIT_MESSAGE" value="[삭제] 섹션-챕터 순서에 부합하지 않는 'equality for all' 디렉터리 삭제" />
   </component>
 </project>
