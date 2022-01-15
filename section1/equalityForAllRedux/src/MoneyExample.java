@@ -35,11 +35,14 @@ public class MoneyExample {
 
     //값 객체의 동일성을 확인하는 'testEquality()' 메서드
     @Test
-    public void testEquality() {
+        public void testEquality() {
         //같은 값을 가진 달러 객체가 정말 같은지 확인하는 테스트 케이스
         assertTrue(new Dollar(5).equals(new Dollar(5)));
-
         //다른 값을 가진 달러 객체가 정말 다른지 확인하는 테스트 케이스
         assertFalse(new Dollar(5).equals(new Dollar(6)));
+        //같은 값을 가진 원 객체가 정말 같은지 확인하는 테스트 케이스
+        assertTrue(new Won(5000).equals(new Won(5000)));
+        //다른 값을 가진 원 객체가 정말 다른지 확인하는 테스트 케이스
+        assertFalse(new Won(5000).equals(new Won(6000)));
     }
 }

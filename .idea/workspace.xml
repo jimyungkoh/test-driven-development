@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[추가] 프라이버시, 솔직히 말하자면 목차">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[추가] 돌아온 모두를 위한 평등 초기 디렉토리 생성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/equalityForAllRedux/src/Dollar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/equalityForAllRedux/src/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/equalityForAllRedux/src/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/equalityForAllRedux/src/MoneyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/equalityForAllRedux/src/MoneyExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/equalityForAllRedux/src/Won.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/section1/franclySpeaking/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/section1/equalityForAllRedux/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -47,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/section1/equalityForAllRedux/src" />
       <recent name="$PROJECT_DIR$/section1/franclySpeaking/src" />
       <recent name="$PROJECT_DIR$/section1/privacy/src" />
       <recent name="$PROJECT_DIR$/equalityForAll/src" />
@@ -60,7 +64,26 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoneyExample.testWonMultiplication">
+  <component name="RunManager" selected="JUnit.MoneyExample.testEquality">
+    <configuration name="MoneyExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="equalityForAllRedux" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MoneyExample" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyExample.testEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="equalityForAllRedux" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MoneyExample" />
+      <option name="METHOD_NAME" value="testEquality" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MoneyExample.testMultiplication (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="franclySpeaking" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,32 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="moneyExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="equalityForAll" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="moneyExample" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="moneyExample.testEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="equalityForAll" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="moneyExample" />
-      <option name="METHOD_NAME" value="testEquality" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoneyExample.testEquality" />
+        <item itemvalue="JUnit.MoneyExample" />
         <item itemvalue="JUnit.MoneyExample.testWonMultiplication" />
         <item itemvalue="JUnit.MoneyExample.testMultiplication (1)" />
         <item itemvalue="JUnit.MoneyExample.testMultiplication" />
-        <item itemvalue="JUnit.moneyExample.testEquality" />
-        <item itemvalue="JUnit.moneyExample" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +150,7 @@
       <workItem from="1641970806470" duration="4733000" />
       <workItem from="1642055652440" duration="7499000" />
       <workItem from="1642160147780" duration="6957000" />
-      <workItem from="1642231652671" duration="846000" />
+      <workItem from="1642231652671" duration="2801000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -309,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642168032333</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="[추가] 돌아온 모두를 위한 평등 초기 디렉토리 생성">
+      <created>1642232841778</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1642232841778</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +339,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;초록-어떻게든 작동하는 코드 만들기&quot; 추기" />
     <MESSAGE value="&quot;다중 통화를 지원하는 Money 객체-리팩터링&quot; 코드 추가" />
     <MESSAGE value="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정" />
     <MESSAGE value="'section1/moneyExample/README.md' 파일 추가" />
@@ -353,6 +363,7 @@
     <MESSAGE value="[추가] 화폐 에제 - 솔직히 말하자면 디렉터리, 코드" />
     <MESSAGE value="[추가] 프라이버시, 솔직히 말하자면 README.md" />
     <MESSAGE value="[추가] 프라이버시, 솔직히 말하자면 목차" />
-    <option name="LAST_COMMIT_MESSAGE" value="[추가] 프라이버시, 솔직히 말하자면 목차" />
+    <MESSAGE value="[추가] 돌아온 모두를 위한 평등 초기 디렉토리 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="[추가] 돌아온 모두를 위한 평등 초기 디렉토리 생성" />
   </component>
 </project>
