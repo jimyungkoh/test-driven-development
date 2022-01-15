@@ -2,6 +2,14 @@
 
 public class Money {
     protected int amount;
+
+    //동일성 일반화
+    public boolean equals(Object object){
+        Money money = (Money) object;
+        //new Dollar(5)의 amount가 equals()
+        //  메서드의 인자인 new Dollar(6)의 amount와 같은지 확인한다.
+        return amount == money.amount;
+    }
 }
 
 class Dollar extends Money{
@@ -15,13 +23,7 @@ class Dollar extends Money{
         return new Dollar(amount*multiplier);
     }
 
-    //동일성 일반화
-    public boolean equals(Object object){
-        Dollar dollar = (Dollar) object;
-        //new Dollar(5)의 amount가 equals()
-        //  메서드의 인자인 new Dollar(6)의 amount와 같은지 확인한다.
-        return amount == dollar.amount;
-    }
+
 }
 
 class Won extends Money{
@@ -33,15 +35,6 @@ class Won extends Money{
     Won times(int multiplier) {
         // amount 값을 amount*multiplier로 설정한 새로운 Won 객체 생성
         return new Won(amount*multiplier);
-    }
-
-    //동일성 일반화
-    public boolean equals(Object object){
-        Won won = (Won) object;
-
-        //new Won(5)의 amount가 equals()
-        //  메서드의 인자인 new Won(6)의 amount와 같은지 확인한다.
-        return amount == won.amount;
     }
 }
 

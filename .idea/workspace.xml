@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[추가] 돌아온 모두를 위한 평등 초기 디렉토리 생성">
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="&#10;[추가] 최상위 Class Money&#10;[수정] 공통 변수 amount를 Money 클래스로 이동&#10;[추가] Won 테스트 케이스">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/equalityForAllRedux/src/Dollar.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/section1/equalityForAllRedux/src/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/equalityForAllRedux/src/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/equalityForAllRedux/src/MoneyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/equalityForAllRedux/src/MoneyExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/equalityForAllRedux/src/Won.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +147,7 @@
       <workItem from="1641970806470" duration="4733000" />
       <workItem from="1642055652440" duration="7499000" />
       <workItem from="1642160147780" duration="6957000" />
-      <workItem from="1642231652671" duration="2801000" />
+      <workItem from="1642231652671" duration="3206000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -320,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642232841778</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="&#10;[추가] 최상위 Class Money&#10;[수정] 공통 변수 amount를 Money 클래스로 이동&#10;[추가] Won 테스트 케이스">
+      <created>1642234602761</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1642234602761</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +343,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;다중 통화를 지원하는 Money 객체-리팩터링&quot; 코드 추가" />
     <MESSAGE value="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정" />
     <MESSAGE value="'section1/moneyExample/README.md' 파일 추가" />
     <MESSAGE value="프로젝트 구조 개편 및 타락한 객체 챕터 추가" />
@@ -364,6 +367,7 @@
     <MESSAGE value="[추가] 프라이버시, 솔직히 말하자면 README.md" />
     <MESSAGE value="[추가] 프라이버시, 솔직히 말하자면 목차" />
     <MESSAGE value="[추가] 돌아온 모두를 위한 평등 초기 디렉토리 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="[추가] 돌아온 모두를 위한 평등 초기 디렉토리 생성" />
+    <MESSAGE value="&#10;[추가] 최상위 Class Money&#10;[수정] 공통 변수 amount를 Money 클래스로 이동&#10;[추가] Won 테스트 케이스" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;[추가] 최상위 Class Money&#10;[수정] 공통 변수 amount를 Money 클래스로 이동&#10;[추가] Won 테스트 케이스" />
   </component>
 </project>
