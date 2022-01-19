@@ -16,22 +16,22 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class MoneyExample {
-		...
-		//값 객체의 동일성을 확인하는 'testEquality()' 메서드
-		@Test
-		public void testEquality() {
-				...
-				//Won과 Dollar의 객체가 정말 다른지 확인하는 테스트 케이스
-				//  -> 정상이라면  500원은 500달러와 달라야 한다(assertFalse 테스트가 성공해야 한다!)
-				//assertFalse(new Won(500).equals(new Dollar(500)));
-				assertTrue(new Won(500).equals(new Dollar(500)));
-		}
-		//값 객체의 다름을 확인하는 'testInequality()' 메서드 
-		@Test
-		    public void testInequality(){
-		        assertFalse(new Won(500).equals(new Dollar(500)));
-		    }
-		}
+    ...
+    //값 객체의 동일성을 확인하는 'testEquality()' 메서드
+    @Test
+    public void testEquality() {
+        ...
+        //Won과 Dollar의 객체가 정말 다른지 확인하는 테스트 케이스
+        //  -> 정상이라면  500원은 500달러와 달라야 한다(assertFalse 테스트가 성공해야 한다!)
+        //assertFalse(new Won(500).equals(new Dollar(500)));
+        assertTrue(new Won(500).equals(new Dollar(500)));
+    }
+    
+    //값 객체의 다름을 확인하는 'testInequality()' 메서드 
+    @Test
+    public void testInequality(){
+        assertFalse(new Won(500).equals(new Dollar(500)));
+    }
 }
 ```
 
@@ -48,7 +48,7 @@ Before
 
 public class Money {
     protected int amount;
-
+    
     //동일성 일반화
     public boolean equals(Object object){
         Money money = (Money) object;
@@ -73,10 +73,10 @@ public class Money {
         //new Dollar(5)의 amount가 equals()
         //  메서드의 인자인 new Dollar(6)의 amount와 같은지 확인한다.
         return amount == money.amount
-								// this.getClass() == money.getClass()
-								// this는 Won 클래스의 객체이고 money는 Dollar 클래스의 객체이므로
-								// 당연히 결과값은 false가 나와야 한다.
                 && getClass().equals(money.getClass());
+                // this.getClass() == money.getClass()
+                // this는 Won 클래스의 객체이고 money는 Dollar 클래스의 객체이므로
+                // 당연히 결과값은 false가 나와야 한다.
     }
 }
 ```
