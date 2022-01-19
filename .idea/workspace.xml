@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[추가] 사과와 오렌지 챕터, 실패하는 테스트 케이스(Won won equals Dollar dollar)">
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[수정] 사과와 오렌지 챕터, 사과(원)와 오렌지(달러) 동일성 테스트가 false가 나오도록 equals() 로직 수정">
+      <change afterPath="$PROJECT_DIR$/section1/applesAndOranges/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section1/applesAndOranges/src/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/applesAndOranges/src/Money.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section1/applesAndOranges/src/MoneyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/applesAndOranges/src/MoneyExample.java" afterDir="false" />
     </list>
@@ -151,7 +153,7 @@
       <workItem from="1642055652440" duration="7499000" />
       <workItem from="1642160147780" duration="6957000" />
       <workItem from="1642231652671" duration="4427000" />
-      <workItem from="1642593018037" duration="3294000" />
+      <workItem from="1642593018037" duration="3894000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -349,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642595463133</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="[수정] 사과와 오렌지 챕터, 사과(원)와 오렌지(달러) 동일성 테스트가 false가 나오도록 equals() 로직 수정">
+      <created>1642596360948</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1642596360948</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +377,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="타락한 객체 챕터 코드 추가" />
     <MESSAGE value="최상위 리드미 목차 수정, 타락한 객체 화폐 예제 챕터 리드미 코드 설명부분 view 수정(markdown-&gt;none)" />
     <MESSAGE value="[추가] equalityForAll 챕터 디렉토리와 내부 파일" />
     <MESSAGE value="[추가] equalityForAll 챕터  화폐 에제 기존 코드" />
@@ -393,6 +401,7 @@
     <MESSAGE value="[수정] equals 메서드를 Dollar, Won에서 Money로 통합" />
     <MESSAGE value="[추가] 돌아온 모두를 위한 평등 README.md와 그 목차" />
     <MESSAGE value="[추가] 사과와 오렌지 챕터, 실패하는 테스트 케이스(Won won equals Dollar dollar)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[추가] 사과와 오렌지 챕터, 실패하는 테스트 케이스(Won won equals Dollar dollar)" />
+    <MESSAGE value="[수정] 사과와 오렌지 챕터, 사과(원)와 오렌지(달러) 동일성 테스트가 false가 나오도록 equals() 로직 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="[수정] 사과와 오렌지 챕터, 사과(원)와 오렌지(달러) 동일성 테스트가 false가 나오도록 equals() 로직 수정" />
   </component>
 </project>

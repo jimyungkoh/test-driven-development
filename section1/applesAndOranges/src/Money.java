@@ -1,4 +1,4 @@
-//section1/equalityForAllRedux/src/Money.java
+//section1/applesAndOranges/src/Money.java
 
 public class Money {
     protected int amount;

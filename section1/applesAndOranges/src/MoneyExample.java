@@ -1,4 +1,4 @@
-// section1/equalityForAllRedux/src/MoneyExample.java
+// section1/applesAndOranges/src/MoneyExample.java
 
 import org.junit.Test;
 
