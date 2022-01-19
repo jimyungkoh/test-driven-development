@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/section1/applesAndOranges/applesAndOranges.iml" filepath="$PROJECT_DIR$/section1/applesAndOranges/applesAndOranges.iml" />
       <module fileurl="file://$PROJECT_DIR$/section1/degenerateObjects/degenerateObjects.iml" filepath="$PROJECT_DIR$/section1/degenerateObjects/degenerateObjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/equalityForAll/equalityForAll.iml" filepath="$PROJECT_DIR$/equalityForAll/equalityForAll.iml" />
       <module fileurl="file://$PROJECT_DIR$/section1/equalityForAllRedux/equalityForAllRedux.iml" filepath="$PROJECT_DIR$/section1/equalityForAllRedux/equalityForAllRedux.iml" />

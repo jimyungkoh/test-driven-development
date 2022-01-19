@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[수정] equals 메서드를 Dollar, Won에서 Money로 통합">
-      <change afterPath="$PROJECT_DIR$/section1/equalityForAllRedux/README.md" afterDir="false" />
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[추가] 돌아온 모두를 위한 평등 README.md와 그 목차">
+      <change afterPath="$PROJECT_DIR$/section1/applesAndOranges/applesAndOranges.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/applesAndOranges/src/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/applesAndOranges/src/MoneyExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../in28minutes/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../in28minutes/conditionals-if-and-switch/src/com/in28minutes/ifstatement/examples/IfStatementRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../in28minutes/conditionals-if-and-switch/src/com/in28minutes/ifstatement/examples/MenuRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../in28minutes/conditionals-if-and-switch/src/com/in28minutes/ifstatement/examples/dateRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +44,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/section1/equalityForAllRedux/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/section1/applesAndOranges/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.11764705" />
     <property name="project.structure.side.proportion" value="0.13351136" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/section1/applesAndOranges/src" />
       <recent name="$PROJECT_DIR$/section1/equalityForAllRedux/src" />
       <recent name="$PROJECT_DIR$/section1/franclySpeaking/src" />
       <recent name="$PROJECT_DIR$/section1/privacy/src" />
       <recent name="$PROJECT_DIR$/equalityForAll/src" />
-      <recent name="$PROJECT_DIR$/section1/degenerateObjects/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/section1" />
       <recent name="$PROJECT_DIR$/section1/moneyExample/src" />
       <recent name="$PROJECT_DIR$/section1/moneyExample" />
     </key>
@@ -62,12 +70,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoneyExample.testEquality">
-    <configuration name="MoneyExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="equalityForAllRedux" />
+  <component name="RunManager" selected="JUnit.MoneyExample (1)">
+    <configuration name="MoneyExample (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="applesAndOranges" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MoneyExample" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyExample.testEquality (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="applesAndOranges" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MoneyExample" />
+      <option name="METHOD_NAME" value="testEquality" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,7 +101,7 @@
       </method>
     </configuration>
     <configuration name="MoneyExample.testMultiplication (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="franclySpeaking" />
+      <module name="equalityForAllRedux" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MoneyExample" />
       <option name="METHOD_NAME" value="testMultiplication" />
@@ -93,7 +111,7 @@
       </method>
     </configuration>
     <configuration name="MoneyExample.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="privacy" />
+      <module name="applesAndOranges" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MoneyExample" />
       <option name="METHOD_NAME" value="testMultiplication" />
@@ -102,23 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoneyExample.testWonMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="franclySpeaking" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoneyExample" />
-      <option name="METHOD_NAME" value="testWonMultiplication" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MoneyExample.testEquality" />
-        <item itemvalue="JUnit.MoneyExample" />
-        <item itemvalue="JUnit.MoneyExample.testWonMultiplication" />
-        <item itemvalue="JUnit.MoneyExample.testMultiplication (1)" />
+        <item itemvalue="JUnit.MoneyExample (1)" />
+        <item itemvalue="JUnit.MoneyExample.testEquality (1)" />
         <item itemvalue="JUnit.MoneyExample.testMultiplication" />
+        <item itemvalue="JUnit.MoneyExample.testMultiplication (1)" />
+        <item itemvalue="JUnit.MoneyExample.testEquality" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +156,8 @@
       <workItem from="1641970806470" duration="4733000" />
       <workItem from="1642055652440" duration="7499000" />
       <workItem from="1642160147780" duration="6957000" />
-      <workItem from="1642231652671" duration="4038000" />
+      <workItem from="1642231652671" duration="4427000" />
+      <workItem from="1642593018037" duration="2344000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -332,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642235375416</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="[추가] 돌아온 모두를 위한 평등 README.md와 그 목차">
+      <created>1642236023405</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1642236023405</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +367,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="'section1/moneyExample/README.md' 파일 추가" />
     <MESSAGE value="프로젝트 구조 개편 및 타락한 객체 챕터 추가" />
     <MESSAGE value="타락한 객체 챕터 코드 추가" />
     <MESSAGE value="최상위 리드미 목차 수정, 타락한 객체 화폐 예제 챕터 리드미 코드 설명부분 view 수정(markdown-&gt;none)" />
@@ -376,6 +391,7 @@
     <MESSAGE value="[추가] 돌아온 모두를 위한 평등 초기 디렉토리 생성" />
     <MESSAGE value="&#10;[추가] 최상위 Class Money&#10;[수정] 공통 변수 amount를 Money 클래스로 이동&#10;[추가] Won 테스트 케이스" />
     <MESSAGE value="[수정] equals 메서드를 Dollar, Won에서 Money로 통합" />
-    <option name="LAST_COMMIT_MESSAGE" value="[수정] equals 메서드를 Dollar, Won에서 Money로 통합" />
+    <MESSAGE value="[추가] 돌아온 모두를 위한 평등 README.md와 그 목차" />
+    <option name="LAST_COMMIT_MESSAGE" value="[추가] 돌아온 모두를 위한 평등 README.md와 그 목차" />
   </component>
 </project>
