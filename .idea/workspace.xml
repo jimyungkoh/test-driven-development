@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[추가] 사과와 오렌지 md 파일, 목차">
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[수정] 사과와 오렌지 코드 들여쓰기">
+      <change afterPath="$PROJECT_DIR$/section1/makingObjects/makingObjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/makingObjects/src/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1/makingObjects/src/MoneyExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/applesAndOranges/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/section1/applesAndOranges/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/section1/applesAndOranges/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/section1/makingObjects/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
@@ -48,11 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/section1/makingObjects/src" />
       <recent name="$PROJECT_DIR$/section1/applesAndOranges/src" />
       <recent name="$PROJECT_DIR$/section1/equalityForAllRedux/src" />
       <recent name="$PROJECT_DIR$/section1/franclySpeaking/src" />
       <recent name="$PROJECT_DIR$/section1/privacy/src" />
-      <recent name="$PROJECT_DIR$/equalityForAll/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/section1" />
@@ -150,7 +153,9 @@
       <workItem from="1642055652440" duration="7499000" />
       <workItem from="1642160147780" duration="6957000" />
       <workItem from="1642231652671" duration="4427000" />
-      <workItem from="1642593018037" duration="4242000" />
+      <workItem from="1642593018037" duration="4760000" />
+      <workItem from="1642599250612" duration="487000" />
+      <workItem from="1642750013859" duration="904000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -362,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642597009230</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="[수정] 사과와 오렌지 코드 들여쓰기">
+      <created>1642597324892</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1642597324892</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +393,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[추가] equalityForAll 챕터 디렉토리와 내부 파일" />
     <MESSAGE value="[추가] equalityForAll 챕터  화폐 에제 기존 코드" />
     <MESSAGE value="[추가] 실패하는 'testEquality()' 메서드" />
     <MESSAGE value="[추가] 테스트 통과를 위해 죄악을 저지른 equals(Obj) 메서드" />
@@ -406,6 +417,7 @@
     <MESSAGE value="[추가] 사과와 오렌지 챕터, 실패하는 테스트 케이스(Won won equals Dollar dollar)" />
     <MESSAGE value="[수정] 사과와 오렌지 챕터, 사과(원)와 오렌지(달러) 동일성 테스트가 false가 나오도록 equals() 로직 수정" />
     <MESSAGE value="[추가] 사과와 오렌지 md 파일, 목차" />
-    <option name="LAST_COMMIT_MESSAGE" value="[추가] 사과와 오렌지 md 파일, 목차" />
+    <MESSAGE value="[수정] 사과와 오렌지 코드 들여쓰기" />
+    <option name="LAST_COMMIT_MESSAGE" value="[수정] 사과와 오렌지 코드 들여쓰기" />
   </component>
 </project>
