@@ -12,6 +12,14 @@ public class Money {
                 // 현재 클래스가 진짜 현재 객체의 클래스와 같아?
                 && getClass().equals(money.getClass());
     }
+
+    static Dollar dollar(int amount){
+        return new Dollar(amount);
+    }
+
+    static Won won(int amount){
+        return new Won(amount);
+    }
 }
 
 class Dollar extends Money{

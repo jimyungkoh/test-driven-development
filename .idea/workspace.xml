@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[수정] 사과와 오렌지 코드 들여쓰기">
-      <change afterPath="$PROJECT_DIR$/section1/makingObjects/makingObjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section1/makingObjects/src/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section1/makingObjects/src/MoneyExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[수정] 반환 타입을 Money로 변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/makingObjects/src/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/makingObjects/src/Money.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +152,7 @@
       <workItem from="1642231652671" duration="4427000" />
       <workItem from="1642593018037" duration="4760000" />
       <workItem from="1642599250612" duration="487000" />
-      <workItem from="1642750013859" duration="904000" />
+      <workItem from="1642750013859" duration="1141000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -374,7 +371,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642597324892</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="[추가] 객체 만들기 챕터">
+      <created>1642751214391</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1642751214391</updated>
+    </task>
+    <task id="LOCAL-00035" summary="[수정] 반환 타입을 Money로 변경">
+      <created>1642751255944</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1642751255944</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,8 +404,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[추가] equalityForAll 챕터  화폐 에제 기존 코드" />
-    <MESSAGE value="[추가] 실패하는 'testEquality()' 메서드" />
     <MESSAGE value="[추가] 테스트 통과를 위해 죄악을 저지른 equals(Obj) 메서드" />
     <MESSAGE value="[추가] 다른 값을 가진 달러 객체가 정말 다른지 확인하는 테스트 케이스" />
     <MESSAGE value="[수정] 값 객체 동일성을 확인하는 equals 메서드의 동일성 일반화(죄악 -&gt; 회개)" />
@@ -418,6 +427,8 @@
     <MESSAGE value="[수정] 사과와 오렌지 챕터, 사과(원)와 오렌지(달러) 동일성 테스트가 false가 나오도록 equals() 로직 수정" />
     <MESSAGE value="[추가] 사과와 오렌지 md 파일, 목차" />
     <MESSAGE value="[수정] 사과와 오렌지 코드 들여쓰기" />
-    <option name="LAST_COMMIT_MESSAGE" value="[수정] 사과와 오렌지 코드 들여쓰기" />
+    <MESSAGE value="[추가] 객체 만들기 챕터" />
+    <MESSAGE value="[수정] 반환 타입을 Money로 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="[수정] 반환 타입을 Money로 변경" />
   </component>
 </project>
