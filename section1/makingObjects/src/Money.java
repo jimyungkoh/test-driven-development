@@ -13,10 +13,12 @@ public class Money {
                 && getClass().equals(money.getClass());
     }
 
+    //팩토리 메서드를 이용한 sub 클래스 객체 생성
     static Dollar dollar(int amount){
         return new Dollar(amount);
     }
 
+    //팩토리 메서드를 이용한 sub 클래스 객체 생성
     static Won won(int amount){
         return new Won(amount);
     }

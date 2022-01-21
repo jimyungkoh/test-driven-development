@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[수정] 반환 타입을 Money로 변경">
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[추가] Money 클래스 팩토리 메서드 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section1/makingObjects/src/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/makingObjects/src/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/makingObjects/src/MoneyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/makingObjects/src/MoneyExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +153,7 @@
       <workItem from="1642231652671" duration="4427000" />
       <workItem from="1642593018037" duration="4760000" />
       <workItem from="1642599250612" duration="487000" />
-      <workItem from="1642750013859" duration="1141000" />
+      <workItem from="1642750013859" duration="1677000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -385,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642751255944</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="[추가] Money 클래스 팩토리 메서드 구현">
+      <created>1642751434093</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1642751434093</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +412,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[추가] 테스트 통과를 위해 죄악을 저지른 equals(Obj) 메서드" />
     <MESSAGE value="[추가] 다른 값을 가진 달러 객체가 정말 다른지 확인하는 테스트 케이스" />
     <MESSAGE value="[수정] 값 객체 동일성을 확인하는 equals 메서드의 동일성 일반화(죄악 -&gt; 회개)" />
     <MESSAGE value="[추가] 값 객체의 동일성을 확인하는 'testEquality()' 메서드&#10;주석&#10;&#10;[추가] 값 객체 동일성을 확인하는 equals 메서드 설명 주석" />
@@ -429,6 +436,7 @@
     <MESSAGE value="[수정] 사과와 오렌지 코드 들여쓰기" />
     <MESSAGE value="[추가] 객체 만들기 챕터" />
     <MESSAGE value="[수정] 반환 타입을 Money로 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="[수정] 반환 타입을 Money로 변경" />
+    <MESSAGE value="[추가] Money 클래스 팩토리 메서드 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="[추가] Money 클래스 팩토리 메서드 구현" />
   </component>
 </project>
