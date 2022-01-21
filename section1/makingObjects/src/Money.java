@@ -1,6 +1,6 @@
 //section1/applesAndOranges/src/Money.java
 
-public class Money {
+abstract class Money {
     protected int amount;
 
     //동일성 일반화
@@ -22,6 +22,8 @@ public class Money {
     static Won won(int amount){
         return new Won(amount);
     }
+
+    abstract Money times(int multiplier);
 }
 
 class Dollar extends Money{
