@@ -1,7 +1,5 @@
-// section1/applesAndOranges/src/MoneyExample.java
-
+/// section1/makingObjects/src/Money.java
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class MoneyExample {

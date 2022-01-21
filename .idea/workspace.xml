@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[수정] 팩토리 메서드를 통한 객체 생성 이후 times() 메서드 호출을 위해 super class Money에 times 추상 메서드 선언, Money class 추상 클래스로 변경">
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[수정] 팩토리 메서드를 사용하도록 테스트 코드 수정">
+      <change afterPath="$PROJECT_DIR$/section1/makingObjects/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/applesAndOranges/src/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/applesAndOranges/src/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/applesAndOranges/src/MoneyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/applesAndOranges/src/MoneyExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section1/makingObjects/src/MoneyExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/makingObjects/src/MoneyExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +155,7 @@
       <workItem from="1642231652671" duration="4427000" />
       <workItem from="1642593018037" duration="4760000" />
       <workItem from="1642599250612" duration="487000" />
-      <workItem from="1642750013859" duration="2213000" />
+      <workItem from="1642750013859" duration="5174000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -405,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642752810485</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="[수정] 팩토리 메서드를 사용하도록 테스트 코드 수정">
+      <created>1642753068815</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1642753068815</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +435,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[추가] 값 객체의 동일성을 확인하는 'testEquality()' 메서드&#10;주석&#10;&#10;[추가] 값 객체 동일성을 확인하는 equals 메서드 설명 주석" />
     <MESSAGE value="[추가] 모두를 위한 평등 README.md" />
     <MESSAGE value="[수정] 모두를 위한 평등 디렉터리 재배치 [추가] 목차에 모두를 위한 평등 챕터 추가" />
     <MESSAGE value="[추가] 섹션1-챕터4(프라이버시) 디렉토리" />
@@ -449,6 +459,7 @@
     <MESSAGE value="[추가] Money 클래스 팩토리 메서드 구현" />
     <MESSAGE value="[수정] Won, Dollar 클래스 참조 제현을 위한 테스트 선언부 변경" />
     <MESSAGE value="[수정] 팩토리 메서드를 통한 객체 생성 이후 times() 메서드 호출을 위해 super class Money에 times 추상 메서드 선언, Money class 추상 클래스로 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="[수정] 팩토리 메서드를 통한 객체 생성 이후 times() 메서드 호출을 위해 super class Money에 times 추상 메서드 선언, Money class 추상 클래스로 변경" />
+    <MESSAGE value="[수정] 팩토리 메서드를 사용하도록 테스트 코드 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="[수정] 팩토리 메서드를 사용하도록 테스트 코드 수정" />
   </component>
 </project>

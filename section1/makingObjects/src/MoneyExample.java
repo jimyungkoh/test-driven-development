@@ -1,4 +1,4 @@
-// section1/applesAndOranges/src/MoneyExample.java
+/// section1/makingObjects/src/MoneyExample.java
 
 import org.junit.Test;
 
@@ -52,7 +52,7 @@ public class MoneyExample {
     }
 
     @Test
-    public void testInequality(){
+    public void testInequality() {
         assertFalse(Money.won(500).equals(Money.dollar(500)));
     }
 }
