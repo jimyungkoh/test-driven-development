@@ -6,6 +6,12 @@ import static org.junit.Assert.*;
 
 public class MoneyExample {
     @Test
+    public void testCurrency(){
+        assertEquals("USD", Money.dollar(1).currency());
+        assertEquals("WON", Money.won(1).currency());
+    }
+
+    @Test
     public void testMultiplication() {
         //Dollar 참조 제한을 위한 선언부 변경
         Money five = Money.dollar(5);
