@@ -4,64 +4,46 @@ abstract class Money {
     protected int amount;
     protected String currency;
 
-    //동일성 일반화
-    public boolean equals(Object object){
+    public boolean equals(Object object) {
         Money money = (Money) object;
-        //new Dollar(5)의 amount가 equals()
-        //  메서드의 인자인 new Dollar(6)의 amount와 같은지 확인한다.
         return amount == money.amount
-                // 현재 클래스가 진짜 현재 객체의 클래스와 같아?
                 && getClass().equals(money.getClass());
     }
 
-    //팩토리 메서드를 이용한 sub 클래스 객체 생성
-    static Dollar dollar(int amount){
+    static Dollar dollar(int amount) {
         return new Dollar(amount);
     }
 
-    //팩토리 메서드를 이용한 sub 클래스 객체 생성
-    static Won won(int amount){
+    static Won won(int amount) {
         return new Won(amount);
     }
 
-    abstract String currency();
+    String currency() {
+        return currency;
+    }
 
     abstract Money times(int multiplier);
 }
 
-class Dollar extends Money{
-    Dollar(int amount){
+class Dollar extends Money {
+    Dollar(int amount) {
         this.amount = amount;
         this.currency = "USD";
     }
 
-    @Override
-    String currency() {
-        return currency;
-    }
-
-    // 반환 타입을 슈퍼 클래스로 설정함
     Money times(int multiplier) {
-        // amount 값을 amount*multiplier로 설정한 새로운 Dollar 객체 생성
-        return new Dollar(amount*multiplier);
+        return new Dollar(amount * multiplier);
     }
 }
 
-class Won extends Money{
-    Won(int amount){
+class Won extends Money {
+    Won(int amount) {
         this.amount = amount;
         this.currency = "WON";
     }
 
-    @Override
-    String currency() {
-        return currency;
-    }
-
-    // 반환 타입을 슈퍼 클래스로 설정함
     Money times(int multiplier) {
-        // amount 값을 amount*multiplier로 설정한 새로운 Won 객체 생성
-        return new Won(amount*multiplier);
+        return new Won(amount * multiplier);
     }
 }
 
