@@ -11,11 +11,11 @@ abstract class Money {
     }
 
     static Dollar dollar(int amount) {
-        return new Dollar(amount);
+        return new Dollar(amount, "USD");
     }
 
     static Won won(int amount) {
-        return new Won(amount);
+        return new Won(amount, "WON");
     }
 
     String currency() {
@@ -32,7 +32,7 @@ class Dollar extends Money {
     }
 
     Money times(int multiplier) {
-        return new Dollar(amount * multiplier);
+        return Money.dollar(amount * multiplier);
     }
 }
 
@@ -43,7 +43,7 @@ class Won extends Money {
     }
 
     Money times(int multiplier) {
-        return new Won(amount * multiplier);
+        return Money.won(amount * multiplier);
     }
 }
 
