@@ -2,6 +2,7 @@
 
 abstract class Money {
     protected int amount;
+    protected String currency;
 
     //동일성 일반화
     public boolean equals(Object object){
@@ -31,11 +32,12 @@ abstract class Money {
 class Dollar extends Money{
     Dollar(int amount){
         this.amount = amount;
+        this.currency = "USD";
     }
 
     @Override
     String currency() {
-        return "USD";
+        return currency;
     }
 
     // 반환 타입을 슈퍼 클래스로 설정함
@@ -48,11 +50,12 @@ class Dollar extends Money{
 class Won extends Money{
     Won(int amount){
         this.amount = amount;
+        this.currency = "WON";
     }
 
     @Override
     String currency() {
-        return "WON";
+        return currency;
     }
 
     // 반환 타입을 슈퍼 클래스로 설정함
