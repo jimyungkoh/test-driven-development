@@ -4,6 +4,11 @@ abstract class Money {
     protected int amount;
     protected String currency;
 
+    public Money(int amount, String currency) {
+        this.amount = amount;
+        this.currency = currency;
+    }
+
     public boolean equals(Object object) {
         Money money = (Money) object;
         return amount == money.amount
@@ -27,8 +32,7 @@ abstract class Money {
 
 class Dollar extends Money {
     Dollar(int amount, String currency) {
-        this.amount = amount;
-        this.currency = currency;
+        super(amount, currency);
     }
 
     Money times(int multiplier) {
@@ -38,8 +42,7 @@ class Dollar extends Money {
 
 class Won extends Money {
     Won(int amount, String currency) {
-        this.amount = amount;
-        this.currency = currency;
+        super(amount, currency);
     }
 
     Money times(int multiplier) {

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[추가] 생성자 공통 구현을 위한 인자 추가">
+    <list default="true" id="331ce4da-c7b8-45cf-bd6a-58d66e2db56d" name="Changes" comment="[수정] times() 메서드의 호출 방식(생성자-&gt;팩토리 메서드)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section1/timesWeAreLivingIn/src/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/timesWeAreLivingIn/src/Money.java" afterDir="false" />
     </list>
@@ -153,7 +153,7 @@
       <workItem from="1642593018037" duration="4760000" />
       <workItem from="1642599250612" duration="487000" />
       <workItem from="1642750013859" duration="5875000" />
-      <workItem from="1643026376337" duration="1998000" />
+      <workItem from="1643026376337" duration="2374000" />
     </task>
     <task id="LOCAL-00003" summary="리포지토리 소개 리드미(test-driven-development/README.md) 파일 수정">
       <created>1641915234451</created>
@@ -470,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643028287682</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="[수정] times() 메서드의 호출 방식(생성자-&gt;팩토리 메서드)">
+      <created>1643028451437</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1643028451437</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +496,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[수정] 외부에서 사용할 일 없는 amount 변수 private 변수로 변경" />
     <MESSAGE value="[추가] 화폐 에제 - 솔직히 말하자면 디렉터리, 코드" />
     <MESSAGE value="[추가] 프라이버시, 솔직히 말하자면 README.md" />
     <MESSAGE value="[추가] 프라이버시, 솔직히 말하자면 목차" />
@@ -514,6 +520,7 @@
     <MESSAGE value="[수정] currency() 메서드 동일한 구현 가능하게 수정" />
     <MESSAGE value="[삭제] currency() 메서드 중복" />
     <MESSAGE value="[추가] 생성자 공통 구현을 위한 인자 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="[추가] 생성자 공통 구현을 위한 인자 추가" />
+    <MESSAGE value="[수정] times() 메서드의 호출 방식(생성자-&gt;팩토리 메서드)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[수정] times() 메서드의 호출 방식(생성자-&gt;팩토리 메서드)" />
   </component>
 </project>
