@@ -23,12 +23,19 @@ abstract class Money {
         return new Won(amount);
     }
 
+    abstract String currency();
+
     abstract Money times(int multiplier);
 }
 
 class Dollar extends Money{
     Dollar(int amount){
         this.amount = amount;
+    }
+
+    @Override
+    String currency() {
+        return "USD";
     }
 
     // 반환 타입을 슈퍼 클래스로 설정함
@@ -41,6 +48,11 @@ class Dollar extends Money{
 class Won extends Money{
     Won(int amount){
         this.amount = amount;
+    }
+
+    @Override
+    String currency() {
+        return "WON";
     }
 
     // 반환 타입을 슈퍼 클래스로 설정함
